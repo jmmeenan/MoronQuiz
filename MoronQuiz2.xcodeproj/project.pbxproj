@@ -16,6 +16,9 @@
 		42CBB87128D699DC00AD22B3 /* MoronQuiz2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB87028D699DC00AD22B3 /* MoronQuiz2Tests.swift */; };
 		42CBB87B28D699DC00AD22B3 /* MoronQuiz2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB87A28D699DC00AD22B3 /* MoronQuiz2UITests.swift */; };
 		42CBB87D28D699DC00AD22B3 /* MoronQuiz2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB87C28D699DC00AD22B3 /* MoronQuiz2UITestsLaunchTests.swift */; };
+		42CBB88A28D69BC900AD22B3 /* Phase2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB88928D69BC900AD22B3 /* Phase2ViewController.swift */; };
+		42CBB88C28D6BCBB00AD22B3 /* Phase3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB88B28D6BCBB00AD22B3 /* Phase3ViewController.swift */; };
+		42CBB88E28D8046600AD22B3 /* scores.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42CBB88D28D8046500AD22B3 /* scores.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		42CBB87628D699DC00AD22B3 /* MoronQuiz2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoronQuiz2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CBB87A28D699DC00AD22B3 /* MoronQuiz2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoronQuiz2UITests.swift; sourceTree = "<group>"; };
 		42CBB87C28D699DC00AD22B3 /* MoronQuiz2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoronQuiz2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42CBB88928D69BC900AD22B3 /* Phase2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase2ViewController.swift; sourceTree = "<group>"; };
+		42CBB88B28D6BCBB00AD22B3 /* Phase3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase3ViewController.swift; sourceTree = "<group>"; };
+		42CBB88D28D8046500AD22B3 /* scores.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = scores.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				42CBB85928D699D800AD22B3 /* AppDelegate.swift */,
 				42CBB85B28D699D800AD22B3 /* SceneDelegate.swift */,
 				42CBB85D28D699D800AD22B3 /* ViewController.swift */,
+				42CBB88928D69BC900AD22B3 /* Phase2ViewController.swift */,
 				42CBB85F28D699D800AD22B3 /* Main.storyboard */,
 				42CBB86228D699DC00AD22B3 /* Assets.xcassets */,
 				42CBB86428D699DC00AD22B3 /* LaunchScreen.storyboard */,
 				42CBB86728D699DC00AD22B3 /* Info.plist */,
+				42CBB88B28D6BCBB00AD22B3 /* Phase3ViewController.swift */,
+				42CBB88D28D8046500AD22B3 /* scores.txt */,
 			);
 			path = MoronQuiz2;
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 				42CBB86628D699DC00AD22B3 /* LaunchScreen.storyboard in Resources */,
 				42CBB86328D699DC00AD22B3 /* Assets.xcassets in Resources */,
 				42CBB86128D699D800AD22B3 /* Main.storyboard in Resources */,
+				42CBB88E28D8046600AD22B3 /* scores.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CBB88C28D6BCBB00AD22B3 /* Phase3ViewController.swift in Sources */,
 				42CBB85E28D699D800AD22B3 /* ViewController.swift in Sources */,
 				42CBB85A28D699D800AD22B3 /* AppDelegate.swift in Sources */,
 				42CBB85C28D699D800AD22B3 /* SceneDelegate.swift in Sources */,
+				42CBB88A28D69BC900AD22B3 /* Phase2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
